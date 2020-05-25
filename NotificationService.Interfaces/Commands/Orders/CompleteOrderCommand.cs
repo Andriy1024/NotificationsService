@@ -1,10 +1,10 @@
 ﻿namespace NotificationService.Application
 {
-    public class DeliverOrderCommand : ICommand
+    public class CompleteOrderCommand : ICommand
     {
         public long Id { get; }
 
-        public DeliverOrderCommand(long id)
+        public CompleteOrderCommand(long id)
             => Id = id;
     }
 }

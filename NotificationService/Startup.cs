@@ -11,7 +11,6 @@ using NotificationService.Application;
 using NotificationService.Infrastructure;
 using NotificationService.Infrastructure.Handlers.Orders;
 using NotificationService.Persistence;
-using System.Reflection;
 
 namespace NotificationService
 {
@@ -44,6 +43,7 @@ namespace NotificationService
             services.AddHttpContextAccessor();
             services.AddMediatR(typeof(GetProductsQuery).Assembly, typeof(GetProductsQueryHandler).Assembly);
             services.AddAutoMapper(typeof(OrderMapper));
+            services.AddScoped<IRazorViewToStringRenderer, RazorViewToStringRenderer>();
 
             services
                 .AddMvc()
@@ -58,6 +58,8 @@ namespace NotificationService
                 var context = serviceScope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
                 context.Database.Migrate();
             }
+            
+            app.UseStaticFiles();
 
             // Enable middleware to serve generated Swagger as a JSON endpoint.
             app.UseSwagger();

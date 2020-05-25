@@ -26,10 +26,10 @@ namespace NotificationService.Domain
         public ProductEntity Product { get; set; }
         public OrderStatus Status { get; set; }
 
-        public void Deliver()
+        public void Complete()
         {
-            Status = OrderStatus.Delivered;
-            AddDomainEvent(new OrderDeliveredDomainEvent(this));
+            Status = OrderStatus.Completed;
+            AddDomainEvent(new OrderCompletedDomainEvent(this));
         }
 
         public void Cancell()

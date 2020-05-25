@@ -1,0 +1,400 @@
+﻿@model NotificationService.Application.OrderModel
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0074)https://master.email.integration.cerri.com/ENGLISH_project_invitation.html -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Order created</title>
+    <style type="text/css">
+        #outlook a {
+            padding: 0;
+        }
+
+        body {
+            width: 100% !important;
+        }
+
+        body {
+            -webkit-text-size-adjust: none;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            font-size: 14px;
+            font-weight: bold;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+
+        #backgroundTable {
+            height: 100% !important;
+            margin: 0;
+            padding: 0;
+            width: 100% !important;
+        }
+
+        body, #backgroundTable {
+            background-color: #F8F8F8;
+        }
+
+        #templateContainer {
+            border: 0px solid transparent;
+        }
+
+        h1, .h1 {
+            color: #485056;
+            display: block;
+            font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial;
+            font-size: 34px;
+            font-weight: 300;
+            line-height: 100%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        h2, .h2 {
+            color: #485056;
+            display: block;
+            font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial;
+            font-size: 30px;
+            font-weight: 300;
+            line-height: 100%;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        h3, .h3 {
+            color: #485056;
+            display: block;
+            font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial;
+            font-size: 26px;
+            font-weight: 300;
+            line-height: 100%;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        h4, .h4 {
+            color: #485056;
+            display: block;
+            font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial;
+            font-size: 22px;
+            font-weight: 300;
+            line-height: 100%;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        #templatePreheader {
+            background-color: #F0F0F0;
+            border-bottom: 1px solid #E5E3E3;
+        }
+
+        .preheaderContent div {
+            color: #00A1FF;
+            font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            line-height: 100%;
+            text-align: center;
+        }
+
+            .preheaderContent div a:link, .preheaderContent div a:visited {
+                color: #00a1ff;
+                font-weight: normal;
+                text-decoration: none;
+            }
+
+            .preheaderContent div img {
+                height: auto;
+                max-width: 600px;
+            }
+
+        #templateHeader {
+            background-color: #F8F8F8;
+        }
+
+        .headerContent {
+            color: #485056;
+            font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 150%;
+            padding: 20px 30px;
+            text-align: left;
+            vertical-align: middle;
+            background-color: #ECFAFF;
+            border: 1px solid #E5E3E3;
+            border-bottom: 0px;
+            border-radius: 6px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+
+            .headerContent img {
+                vertical-align: middle;
+                margin-right: 15px;
+            }
+
+            .headerContent a:link, .headerContent a:visited {
+                color: #00a1ff;
+                font-weight: normal;
+                text-decoration: none;
+            }
+
+        .headerContentText {
+            font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .bodyContent {
+            background-color: #FFFFFF;
+            border: 1px solid #e5e3e3;
+            border-radius: 6px;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+        }
+
+            .bodyContent, .bodyContent div, .bodyContent .userIconText {
+                color: #485056;
+                font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 150%;
+                text-align: left;
+            }
+
+                .bodyContent a:link, .bodyContent a:visited {
+                    color: #00a1ff;
+                    font-weight: 300;
+                    text-decoration: none;
+                }
+
+                .bodyContent .regular {
+                    padding: 30px;
+                }
+
+                .bodyContent .thin {
+                    padding: 20px 30px;
+                }
+
+                .bodyContent a.button:link, .bodyContent a.button:visited {
+                    background-color: #00a1ff;
+                    color: #FFF;
+                    font-weight: 600;
+                    text-decoration: none;
+                    display: block;
+                    width: 280px;
+                    margin: 0 auto;
+                    text-align: center;
+                    height: 40px;
+                    line-height: 40px;
+                    text-transform: uppercase;
+                    letter-spacing: 1.3px;
+                    font-size: 13px;
+                    border-radius: 3px;
+                }
+
+                .bodyContent p.metadata {
+                    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                    font-size: 12px;
+                    margin: -10px 0 15px 0;
+                }
+
+                .bodyContent .border-top {
+                    border-top: 1px solid #E5E3E3;
+                }
+
+                    .bodyContent .border-top img {
+                        vertical-align: middle;
+                        margin-right: 15px;
+                    }
+
+                .bodyContent .multiple-buttons {
+                    text-align: center;
+                }
+
+                .bodyContent div a.half-button:link, .bodyContent div a.half-button:visited {
+                    background-color: #00a1ff;
+                    color: #FFF;
+                    font-weight: 600;
+                    text-decoration: none;
+                    display: inline-block;
+                    width: 240px;
+                    margin: 0 auto;
+                    text-align: center;
+                    height: 40px;
+                    line-height: 40px;
+                    text-transform: uppercase;
+                    letter-spacing: 1.3px;
+                    font-size: 13px;
+                    border-radius: 3px;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                }
+
+                .bodyContent div a.green-button:link, .bodyContent div a.green-button:visited {
+                    background-color: #1FB355;
+                }
+
+        #templateFooter {
+            background-color: #F8F8F8;
+            border-top: 0;
+        }
+
+        .footerContent div {
+            color: #8d9ca1;
+            font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            line-height: 150%;
+            text-align: center;
+        }
+
+            .footerContent div a:link, .footerContent div a:visited {
+                color: #485056;
+                font-weight: normal;
+                text-decoration: none;
+            }
+
+        .footerContent img {
+            display: inline;
+        }
+
+        #social {
+            background-color: #FAFAFA;
+            border: 0;
+        }
+
+            #social div {
+                text-align: center;
+            }
+
+        #utility {
+            background-color: #F8F8F8;
+            border-top: 1px none #e5e3e3;
+        }
+
+            #utility div {
+                text-align: center;
+            }
+    </style>
+    <!--[if mso]>
+    <style type=”text/css”>
+    body, table, td, h1, .h1, h2, .h2, h3, .h3, h4, .h4,
+    .preheaderContent div, .headerContent, .headerContentText,
+    .bodyContent,.bodyContent div,.bodyContent .userIconText,
+    .bodyContent p.metadata, .footerContent div {
+        font-family: Arial, sans-serif !important;
+    }
+    a.button {
+        border:10px solid #00a1ff;
+    }
+    </style>
+    <![endif]-->
+</head>
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" style="-webkit-text-size-adjust: none;margin: 0;padding: 0;background-color: #F8F8F8;width: 100% !important;font-family: &#39;Open Sans&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif;">
+    <center>
+        <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable" style="background-color: #F8F8F8;margin: 0;padding: 0;height: 100% !important;width: 100% !important;">
+            <tbody>
+                <tr>
+                    <td align="center" valign="top">
+                        <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <!-- // Begin Template Header \\ -->
+                                        <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader" style="background-color: #F8F8F8;">
+                                            <!-- // Begin Module: Header Icon \\ -->
+                                            <tbody>
+                                                <tr>
+                                                    <td valign="middle" style="text-align:center;padding:10px;padding-bottom:30px;padding-top:30px;">
+                                                        <img src="~/Icons/order-completed.svg" style="width: 87px;height: 87px;font-size: 14px;font-weight: bold;line-height: 100%;outline: none;text-decoration: none;text-transform: capitalize;" width="87" height="87">
+                                                    </td>
+                                                </tr>
+                                                <!-- // End Module: Header Icon \\ -->
+                                                <!-- // Begin Module: Header Title \\ -->
+                                                <tr>
+                                                    <td class="headerTitle" style="padding:10px;padding-bottom:20px;text-align:center;">
+                                                        <span class="h1" style="color: #485056;display: block;font-size: 34px;font-weight: 300;line-height: 100%;margin-bottom: 20px;text-align: center;">Order created</span>
+                                                    </td>
+                                                </tr>
+                                                <!-- // End Module: Header Title \\ -->
+                                                <!-- // Begin Module: Header User Avatar + Action \\ -->
+                                                <tr>
+                                                    <td class="headerContent" style="color: #485056;font-size: 16px;font-weight: normal;line-height: 150%;padding: 20px 30px;text-align: left;vertical-align: middle;background-color: #ECFAFF;border: 1px solid #E5E3E3;border-bottom: 0px;border-radius: 6px;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;">
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="headerContentText" style="font-size: 16px;font-weight: 500;">
+
+                                                                        <strong>@Model.BuyerName</strong> your order cancelled.
+
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <!-- // End Module: Header User Avatar + Action \\ -->
+
+                                            </tbody>
+                                        </table>
+                                        <!-- // End Template Header \\ -->
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <!-- // Begin Template Body \\ -->
+                                        <table border="0" cellspacing="0" width="600" id="templateBody">
+                                            <tbody>
+                                                <tr>
+                                                    <td valign="top" class="bodyContent" style="background-color: #FFFFFF;border: 1px solid #e5e3e3;border-radius: 6px;border-top-left-radius: 0px;border-top-right-radius: 0px;color: #485056;font-size: 16px;font-weight: 300;line-height: 150%;text-align: left;">
+                                                        <!-- // Begin Module: Standard Content \\ -->
+                                                        <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                                            <!-- // Begin Module: Regular Content Row \\ -->
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td valign="top" class="regular" style="padding: 30px;">
+                                                                        <div>
+
+                                                                            <span class="h3" style="color: #485056;display: block;font-size: 26px;line-height: 100%;margin-bottom: 10px;">@Model.ProductName</span>
+                                                                            <br>
+                                                                            <p class="metadata" style="font-size: 12px;margin-bottom: 15px;margin-top: -10px;">
+                                                                                Date time: @Model.CreatedAt
+                                                                            </p>
+                                                                            <p class="metadata" style="font-size: 12px;margin-bottom: 15px;margin-top: -10px;">
+                                                                                Payment: @Model.Payment$
+                                                                            </p>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <!-- // End Module: Standard Content \\ -->
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!-- // End Template Body \\ -->
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+
+</body>
+</html>

@@ -450,3 +450,15 @@ C:\My\Курсова\NotificationsService\NotificationService\obj\Debug\netcorea
 C:\My\Курсова\NotificationsService\NotificationService\obj\Debug\netcoreapp3.1\NotificationService.API.dll
 C:\My\Курсова\NotificationsService\NotificationService\obj\Debug\netcoreapp3.1\NotificationService.API.pdb
 C:\My\Курсова\NotificationsService\NotificationService\obj\Debug\netcoreapp3.1\NotificationService.API.genruntimeconfig.cache
+C:\My\Курсова\NotificationsService\NotificationService\bin\Debug\netcoreapp3.1\NotificationService.API.Views.dll
+C:\My\Курсова\NotificationsService\NotificationService\bin\Debug\netcoreapp3.1\NotificationService.API.Views.pdb
+C:\My\Курсова\NotificationsService\NotificationService\obj\Debug\netcoreapp3.1\NotificationService.API.RazorAssemblyInfo.cache
+C:\My\Курсова\NotificationsService\NotificationService\obj\Debug\netcoreapp3.1\NotificationService.API.RazorAssemblyInfo.cs
+C:\My\Курсова\NotificationsService\NotificationService\obj\Debug\netcoreapp3.1\NotificationService.API.TagHelpers.input.cache
+C:\My\Курсова\NotificationsService\NotificationService\obj\Debug\netcoreapp3.1\NotificationService.API.TagHelpers.output.cache
+C:\My\Курсова\NotificationsService\NotificationService\obj\Debug\netcoreapp3.1\NotificationService.API.RazorCoreGenerate.cache
+C:\My\Курсова\NotificationsService\NotificationService\obj\Debug\netcoreapp3.1\Razor\Views\Orders\OrderCancelledView.cshtml.g.cs
+C:\My\Курсова\NotificationsService\NotificationService\obj\Debug\netcoreapp3.1\Razor\Views\Orders\OrderCompletedView.cshtml.g.cs
+C:\My\Курсова\NotificationsService\NotificationService\obj\Debug\netcoreapp3.1\Razor\Views\Orders\OrderCreatedView.cshtml.g.cs
+C:\My\Курсова\NotificationsService\NotificationService\obj\Debug\netcoreapp3.1\NotificationService.API.RazorTargetAssemblyInfo.cs
+C:\My\Курсова\NotificationsService\NotificationService\obj\Debug\netcoreapp3.1\NotificationService.API.Views.pdb

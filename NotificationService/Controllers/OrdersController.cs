@@ -40,9 +40,9 @@ namespace NotificationService.API.Controllers
         public async Task<IActionResult> CreateOrderAsync([FromBody] CreateOrderCommand command, CancellationToken cancellationToken)
             => Ok(await _mediator.Send(command, cancellationToken));
 
-        [HttpPut("{id:long:min(1)}/deliver")]
+        [HttpPut("{id:long:min(1)}/complete")]
         public async Task<IActionResult> DeliverOrderAsync([FromRoute] long id, CancellationToken cancellationToken)
-            => Ok(await _mediator.Send(new DeliverOrderCommand(id), cancellationToken));
+            => Ok(await _mediator.Send(new CompleteOrderCommand(id), cancellationToken));
 
         [HttpPut("{id:long:min(1)}/cancell")]
         public async Task<IActionResult> CancellOrderAsync([FromRoute] long id, CancellationToken cancellationToken)

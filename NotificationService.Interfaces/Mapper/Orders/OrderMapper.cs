@@ -9,6 +9,8 @@ namespace NotificationService.Application
         {
             CreateMap<OrderEntity, OrderDto>();
             CreateMap<CreateOrderCommand, OrderEntity>();
+            CreateMap<OrderEntity, OrderModel>()
+                .ForMember(model => model.ProductName, value => value.MapFrom(entity => entity.Product.Name));
         }
     }
 }

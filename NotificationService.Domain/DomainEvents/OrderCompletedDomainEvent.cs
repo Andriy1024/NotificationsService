@@ -1,8 +1,8 @@
 ﻿namespace NotificationService.Domain
 {
-    public class OrderDeliveredDomainEvent : IDomainEvent
+    public class OrderCompletedDomainEvent : IDomainEvent
     {
-        public OrderDeliveredDomainEvent(OrderEntity order)
+        public OrderCompletedDomainEvent(OrderEntity order)
         {
             Order = order;
         }
