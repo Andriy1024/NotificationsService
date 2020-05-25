@@ -1,0 +1,13 @@
+C:\Users\Admin\Desktop\Практика\NotificationService\NotificationService.Persistence\bin\Debug\netcoreapp3.1\NotificationService.Persistence.deps.json
+C:\Users\Admin\Desktop\Практика\NotificationService\NotificationService.Persistence\bin\Debug\netcoreapp3.1\NotificationService.Persistence.dll
+C:\Users\Admin\Desktop\Практика\NotificationService\NotificationService.Persistence\bin\Debug\netcoreapp3.1\NotificationService.Persistence.pdb
+C:\Users\Admin\Desktop\Практика\NotificationService\NotificationService.Persistence\obj\Debug\netcoreapp3.1\NotificationService.Persistence.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Практика\NotificationService\NotificationService.Persistence\obj\Debug\netcoreapp3.1\NotificationService.Persistence.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Практика\NotificationService\NotificationService.Persistence\obj\Debug\netcoreapp3.1\NotificationService.Persistence.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Практика\NotificationService\NotificationService.Persistence\obj\Debug\netcoreapp3.1\NotificationService.Persistence.dll
+C:\Users\Admin\Desktop\Практика\NotificationService\NotificationService.Persistence\obj\Debug\netcoreapp3.1\NotificationService.Persistence.pdb
+C:\Users\Admin\Desktop\Практика\NotificationService\NotificationService.Persistence\bin\Debug\netcoreapp3.1\NotificationService.Domain.dll
+C:\Users\Admin\Desktop\Практика\NotificationService\NotificationService.Persistence\bin\Debug\netcoreapp3.1\NotificationService.Domain.pdb
+C:\Users\Admin\Desktop\Практика\NotificationService\NotificationService.Persistence\obj\Debug\netcoreapp3.1\NotificationService.Persistence.csproj.CopyComplete
+C:\Users\Admin\Desktop\Практика\NotificationService\NotificationService.Persistence\bin\Debug\netcoreapp3.1\NotificationService.Persistence.runtimeconfig.json
+C:\Users\Admin\Desktop\Практика\NotificationService\NotificationService.Persistence\bin\Debug\netcoreapp3.1\NotificationService.Persistence.runtimeconfig.dev.json

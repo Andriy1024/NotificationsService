@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Handlers\Products\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentEmail.Core" Version="2.7.0" />
+    <PackageReference Include="FluentEmail.SendGrid" Version="2.7.0" />
+    <PackageReference Include="FluentEmail.Smtp" Version="2.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NotificationService.Interfaces\NotificationService.Application.csproj" />
+    <ProjectReference Include="..\NotificationService.Persistence\NotificationService.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
