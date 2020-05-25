@@ -9,3 +9,15 @@ C:\Users\Admin\Desktop\Практика\NotificationService\NotificationService.
 C:\Users\Admin\Desktop\Практика\NotificationService\NotificationService.Interfaces\obj\Debug\netcoreapp3.1\NotificationService.Application.csproj.CopyComplete
 C:\Users\Admin\Desktop\Практика\NotificationService\NotificationService.Interfaces\obj\Debug\netcoreapp3.1\NotificationService.Application.dll
 C:\Users\Admin\Desktop\Практика\NotificationService\NotificationService.Interfaces\obj\Debug\netcoreapp3.1\NotificationService.Application.pdb
+C:\My\Курсова\NotificationsService\NotificationService.Interfaces\bin\Debug\netcoreapp3.1\NotificationService.Application.deps.json
+C:\My\Курсова\NotificationsService\NotificationService.Interfaces\bin\Debug\netcoreapp3.1\NotificationService.Application.dll
+C:\My\Курсова\NotificationsService\NotificationService.Interfaces\bin\Debug\netcoreapp3.1\NotificationService.Application.pdb
+C:\My\Курсова\NotificationsService\NotificationService.Interfaces\bin\Debug\netcoreapp3.1\NotificationService.Domain.dll
+C:\My\Курсова\NotificationsService\NotificationService.Interfaces\bin\Debug\netcoreapp3.1\NotificationService.Domain.pdb
+C:\My\Курсова\NotificationsService\NotificationService.Interfaces\obj\Debug\netcoreapp3.1\NotificationService.Application.csprojAssemblyReference.cache
+C:\My\Курсова\NotificationsService\NotificationService.Interfaces\obj\Debug\netcoreapp3.1\NotificationService.Application.csproj.CoreCompileInputs.cache
+C:\My\Курсова\NotificationsService\NotificationService.Interfaces\obj\Debug\netcoreapp3.1\NotificationService.Application.AssemblyInfoInputs.cache
+C:\My\Курсова\NotificationsService\NotificationService.Interfaces\obj\Debug\netcoreapp3.1\NotificationService.Application.AssemblyInfo.cs
+C:\My\Курсова\NotificationsService\NotificationService.Interfaces\obj\Debug\netcoreapp3.1\NotificationService.Application.csproj.CopyComplete
+C:\My\Курсова\NotificationsService\NotificationService.Interfaces\obj\Debug\netcoreapp3.1\NotificationService.Application.dll
+C:\My\Курсова\NotificationsService\NotificationService.Interfaces\obj\Debug\netcoreapp3.1\NotificationService.Application.pdb

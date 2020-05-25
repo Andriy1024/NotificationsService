@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService\\NotificationService.API.csproj": {}
+    "C:\\My\\Курсова\\NotificationsService\\NotificationService\\NotificationService.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Domain\\NotificationService.Domain.csproj": {
+    "C:\\My\\Курсова\\NotificationsService\\NotificationService.Domain\\NotificationService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Domain\\NotificationService.Domain.csproj",
+        "projectUniqueName": "C:\\My\\Курсова\\NotificationsService\\NotificationService.Domain\\NotificationService.Domain.csproj",
         "projectName": "NotificationService.Domain",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Domain\\NotificationService.Domain.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Domain\\obj\\",
+        "projectPath": "C:\\My\\Курсова\\NotificationsService\\NotificationService.Domain\\NotificationService.Domain.csproj",
+        "packagesPath": "C:\\Users\\Korol xiaomi\\.nuget\\packages\\",
+        "outputPath": "C:\\My\\Курсова\\NotificationsService\\NotificationService.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Korol xiaomi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,24 +62,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj": {
+    "C:\\My\\Курсова\\NotificationsService\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj",
+        "projectUniqueName": "C:\\My\\Курсова\\NotificationsService\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj",
         "projectName": "NotificationService.Infrastructure",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Infrastructure\\obj\\",
+        "projectPath": "C:\\My\\Курсова\\NotificationsService\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Korol xiaomi\\.nuget\\packages\\",
+        "outputPath": "C:\\My\\Курсова\\NotificationsService\\NotificationService.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Korol xiaomi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -95,11 +89,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Interfaces\\NotificationService.Application.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Interfaces\\NotificationService.Application.csproj"
+              "C:\\My\\Курсова\\NotificationsService\\NotificationService.Interfaces\\NotificationService.Application.csproj": {
+                "projectPath": "C:\\My\\Курсова\\NotificationsService\\NotificationService.Interfaces\\NotificationService.Application.csproj"
               },
-              "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Persistence\\NotificationService.Persistence.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Persistence\\NotificationService.Persistence.csproj"
+              "C:\\My\\Курсова\\NotificationsService\\NotificationService.Persistence\\NotificationService.Persistence.csproj": {
+                "projectPath": "C:\\My\\Курсова\\NotificationsService\\NotificationService.Persistence\\NotificationService.Persistence.csproj"
               }
             }
           }
@@ -144,24 +138,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Interfaces\\NotificationService.Application.csproj": {
+    "C:\\My\\Курсова\\NotificationsService\\NotificationService.Interfaces\\NotificationService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Interfaces\\NotificationService.Application.csproj",
+        "projectUniqueName": "C:\\My\\Курсова\\NotificationsService\\NotificationService.Interfaces\\NotificationService.Application.csproj",
         "projectName": "NotificationService.Application",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Interfaces\\NotificationService.Application.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Interfaces\\obj\\",
+        "projectPath": "C:\\My\\Курсова\\NotificationsService\\NotificationService.Interfaces\\NotificationService.Application.csproj",
+        "packagesPath": "C:\\Users\\Korol xiaomi\\.nuget\\packages\\",
+        "outputPath": "C:\\My\\Курсова\\NotificationsService\\NotificationService.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Korol xiaomi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -174,8 +165,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Domain\\NotificationService.Domain.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Domain\\NotificationService.Domain.csproj"
+              "C:\\My\\Курсова\\NotificationsService\\NotificationService.Domain\\NotificationService.Domain.csproj": {
+                "projectPath": "C:\\My\\Курсова\\NotificationsService\\NotificationService.Domain\\NotificationService.Domain.csproj"
               }
             }
           }
@@ -224,24 +215,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Persistence\\NotificationService.Persistence.csproj": {
+    "C:\\My\\Курсова\\NotificationsService\\NotificationService.Persistence\\NotificationService.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Persistence\\NotificationService.Persistence.csproj",
+        "projectUniqueName": "C:\\My\\Курсова\\NotificationsService\\NotificationService.Persistence\\NotificationService.Persistence.csproj",
         "projectName": "NotificationService.Persistence",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Persistence\\NotificationService.Persistence.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Persistence\\obj\\",
+        "projectPath": "C:\\My\\Курсова\\NotificationsService\\NotificationService.Persistence\\NotificationService.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Korol xiaomi\\.nuget\\packages\\",
+        "outputPath": "C:\\My\\Курсова\\NotificationsService\\NotificationService.Persistence\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Korol xiaomi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -254,8 +242,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Domain\\NotificationService.Domain.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Domain\\NotificationService.Domain.csproj"
+              "C:\\My\\Курсова\\NotificationsService\\NotificationService.Domain\\NotificationService.Domain.csproj": {
+                "projectPath": "C:\\My\\Курсова\\NotificationsService\\NotificationService.Domain\\NotificationService.Domain.csproj"
               }
             }
           }
@@ -307,24 +295,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService\\NotificationService.API.csproj": {
+    "C:\\My\\Курсова\\NotificationsService\\NotificationService\\NotificationService.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService\\NotificationService.API.csproj",
+        "projectUniqueName": "C:\\My\\Курсова\\NotificationsService\\NotificationService\\NotificationService.API.csproj",
         "projectName": "NotificationService.API",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService\\NotificationService.API.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService\\obj\\",
+        "projectPath": "C:\\My\\Курсова\\NotificationsService\\NotificationService\\NotificationService.API.csproj",
+        "packagesPath": "C:\\Users\\Korol xiaomi\\.nuget\\packages\\",
+        "outputPath": "C:\\My\\Курсова\\NotificationsService\\NotificationService\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Korol xiaomi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -337,11 +322,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj"
+              "C:\\My\\Курсова\\NotificationsService\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj": {
+                "projectPath": "C:\\My\\Курсова\\NotificationsService\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj"
               },
-              "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Interfaces\\NotificationService.Application.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Desktop\\Практика\\Курсова\\NotificationService\\NotificationService.Interfaces\\NotificationService.Application.csproj"
+              "C:\\My\\Курсова\\NotificationsService\\NotificationService.Interfaces\\NotificationService.Application.csproj": {
+                "projectPath": "C:\\My\\Курсова\\NotificationsService\\NotificationService.Interfaces\\NotificationService.Application.csproj"
               }
             }
           }
@@ -392,7 +377,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

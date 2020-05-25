@@ -8,6 +8,7 @@ namespace NotificationService.Application
         public OrderMapper()
         {
             CreateMap<OrderEntity, OrderDto>();
+            CreateMap<CreateOrderCommand, OrderEntity>();
         }
     }
 }

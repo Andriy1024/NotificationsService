@@ -15,7 +15,7 @@ namespace NotificationService.API.Controllers
             => _mediator = mediator;
 
         [HttpGet]
-        public async Task<IActionResult> GetProductsAsync([FromQuery] GetProductsQuery query, CancellationToken cancellationToken)
-            => Ok(await _mediator.Send(query, cancellationToken));
+        public async Task<IActionResult> GetProductsAsync(CancellationToken cancellationToken)
+            => Ok(await _mediator.Send(new GetProductsQuery(), cancellationToken));
     }
 }

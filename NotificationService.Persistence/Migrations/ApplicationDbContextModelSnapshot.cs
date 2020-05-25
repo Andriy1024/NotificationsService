@@ -30,12 +30,12 @@ namespace NotificationService.Persistence.Migrations
                         .HasColumnType("nvarchar(100)")
                         .HasMaxLength(100);
 
-                    b.Property<long>("BuyerEmail")
-                        .HasColumnType("bigint")
+                    b.Property<string>("BuyerEmail")
+                        .HasColumnType("nvarchar(100)")
                         .HasMaxLength(100);
 
-                    b.Property<long>("BuyerName")
-                        .HasColumnType("bigint")
+                    b.Property<string>("BuyerName")
+                        .HasColumnType("nvarchar(100)")
                         .HasMaxLength(100);
 
                     b.Property<string>("City")
@@ -52,6 +52,9 @@ namespace NotificationService.Persistence.Migrations
 
                     b.Property<long>("ProductId")
                         .HasColumnType("bigint");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

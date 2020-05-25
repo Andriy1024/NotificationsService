@@ -1,8 +1,8 @@
 ﻿namespace NotificationService.Domain
 {
-    public class OrderAcceptedDomainEvent : IDomainEvent
+    public class OrderCancelledDomainEvent : IDomainEvent
     {
-        public OrderAcceptedDomainEvent(OrderEntity order)
+        public OrderCancelledDomainEvent(OrderEntity order)
         {
             Order = order;
         }

@@ -6,3 +6,12 @@ C:\Users\Admin\Desktop\Практика\NotificationService\NotificationService.
 C:\Users\Admin\Desktop\Практика\NotificationService\NotificationService.Domain\bin\Debug\netcoreapp3.1\NotificationService.Domain.pdb
 C:\Users\Admin\Desktop\Практика\NotificationService\NotificationService.Domain\obj\Debug\netcoreapp3.1\NotificationService.Domain.dll
 C:\Users\Admin\Desktop\Практика\NotificationService\NotificationService.Domain\obj\Debug\netcoreapp3.1\NotificationService.Domain.pdb
+C:\My\Курсова\NotificationsService\NotificationService.Domain\bin\Debug\netcoreapp3.1\NotificationService.Domain.deps.json
+C:\My\Курсова\NotificationsService\NotificationService.Domain\bin\Debug\netcoreapp3.1\NotificationService.Domain.dll
+C:\My\Курсова\NotificationsService\NotificationService.Domain\bin\Debug\netcoreapp3.1\NotificationService.Domain.pdb
+C:\My\Курсова\NotificationsService\NotificationService.Domain\obj\Debug\netcoreapp3.1\NotificationService.Domain.csprojAssemblyReference.cache
+C:\My\Курсова\NotificationsService\NotificationService.Domain\obj\Debug\netcoreapp3.1\NotificationService.Domain.csproj.CoreCompileInputs.cache
+C:\My\Курсова\NotificationsService\NotificationService.Domain\obj\Debug\netcoreapp3.1\NotificationService.Domain.AssemblyInfoInputs.cache
+C:\My\Курсова\NotificationsService\NotificationService.Domain\obj\Debug\netcoreapp3.1\NotificationService.Domain.AssemblyInfo.cs
+C:\My\Курсова\NotificationsService\NotificationService.Domain\obj\Debug\netcoreapp3.1\NotificationService.Domain.dll
+C:\My\Курсова\NotificationsService\NotificationService.Domain\obj\Debug\netcoreapp3.1\NotificationService.Domain.pdb
