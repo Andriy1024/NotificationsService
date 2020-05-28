@@ -4,7 +4,11 @@ namespace NotificationService.Domain
 {
     public class OrderEntity : Entity
     {
-        public OrderEntity(string buyerName, string buyerEmail, string city, string adress, long payment, long productId)
+        public OrderEntity()
+        {
+        }
+
+        public OrderEntity(string buyerName, string buyerEmail, string city, string adress, long payment, long productId, long cost)
         {
             BuyerName = buyerName;
             BuyerEmail = buyerEmail;
@@ -13,6 +17,7 @@ namespace NotificationService.Domain
             Payment = payment;
             ProductId = productId;
             Status = OrderStatus.InProgress;
+            Payment = cost;
             AddDomainEvent(new OrderCreatedDomainEvent(this));
         }
 

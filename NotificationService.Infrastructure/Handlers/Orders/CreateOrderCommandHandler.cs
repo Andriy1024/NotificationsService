@@ -23,9 +23,7 @@ namespace NotificationService.Infrastructure.Handlers
             if (product == null)
                 throw new ProductNotFoundException();
 
-            var newOrder = new OrderEntity(command.BuyerName, command.BuyerEmail, command.City, command.Adress, product.Cost, command.ProductId);
-            newOrder.Payment = product.Cost;
-            newOrder.AddDomainEvent(new OrderCreatedDomainEvent(newOrder));
+            var newOrder = new OrderEntity(command.BuyerName, command.BuyerEmail, command.City, command.Adress, product.Cost, command.ProductId, product.Cost);
             _dbContext.Orders.Add(newOrder);
             await _dbContext.SaveEntitiesAsync();
             return newOrder.Id;
